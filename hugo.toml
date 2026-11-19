@@ -1,4 +1,4 @@
-baseURL = '[https://podicipedidae..github.io/](https://podicipedidae..github.io/)'
+baseURL = 'https://podicipedidae.github.io/'
 locale = 'zh-Hant'
 title = '非正式田野 / Informal Fieldnotes'
 theme = 'hugo-bearblog'

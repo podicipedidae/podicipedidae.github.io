@@ -1,0 +1,24 @@
+{{ define "main" }}
+<content>
+  {{ .Content }}
+
+  {{ $pages := where .Site.RegularPages "Section" "blog" }}
+  {{ if $pages }}
+  <h3>文章列表</h3>
+  <ul class="blog-posts">
+    {{ range $pages.ByDate.Reverse }}
+    <li>
+      <span>
+        <i>
+          <time datetime='{{ .Date.Format "2006-01-02" }}'>
+            {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
+          </time>
+        </i>
+      </span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</content>
+{{ end }}
