@@ -1,0 +1,26 @@
+baseURL = 'https://example.org/'
+locale = 'zh-Hant'
+title = '非正式田野 / Informal Fieldnotes'
+theme = 'hugo-bearblog'
+
+enableRobotsTXT = true
+
+[params]
+  description = "長文存檔與個人田野筆記。關注社會觀察、閱讀、鳥、貓，以及足球與棒球。"
+  favicon = "🪶"
+  hideMadeWithLine = true
+  dateFormat = "2006-01-02"
+
+[menu]
+  [[menu.main]]
+    name = "首頁"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "文章"
+    url = "/blog/"
+    weight = 2
+  [[menu.main]]
+    name = "關於"
+    url = "/about/"
+    weight = 3
