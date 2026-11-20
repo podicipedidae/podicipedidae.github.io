@@ -15,3 +15,7 @@ title: "關於 / About"
 
 * [豆瓣](https://www.douban.com/people/296043165/)
 * [小紅書](https://www.xiaohongshu.com/user/profile/61ed705e000000000202436a)
+
+### 聯繫方式
+
+Email: blog.jockstrap666[at]passfwd.com
